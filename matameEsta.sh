@@ -6,4 +6,5 @@ list=( $MIPIDS )
 for i in "${list[@]}"
 do
 	echo $i
+	kill $i
 done
